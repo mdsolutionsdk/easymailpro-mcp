@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "easymailpro",
+  "version": "0.1.0",
+  "description": "Connect AI agents directly to your local EasyMail Pro desktop inbox over MCP. Zero cloud relay, 28 tools, read-only by default.",
+  "author": {
+    "name": "Mosgaard Digital Solutions",
+    "email": "hello@easymailpro.tech",
+    "url": "https://easymailpro.tech"
+  },
+  "homepage": "https://easymailpro.tech/mcp",
+  "repository": "https://github.com/mdsolutionsdk/easymailpro-mcp",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "mcp",
+    "easymailpro",
+    "inbox",
+    "imap",
+    "local-first"
+  ]
+}
