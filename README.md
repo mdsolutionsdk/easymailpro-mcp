@@ -1,10 +1,10 @@
-# easymailpro-mcp
+# @easymailpro/mcp
 
 Official `stdio`-to-Streamable-HTTP bridge for the built-in local MCP (Model Context Protocol) server in [EasyMail Pro](https://easymailpro.tech).
 
 Connect Claude Desktop, Claude Code, OpenAI Codex, OpenCode, Cursor, VS Code, Windsurf, Cline, or any MCP-compatible AI agent directly to your local EasyMail Pro mailbox — zero cloud relay, zero third-party OAuth tokens, and all email stays on your machine.
 
-- **npm package:** [`easymailpro-mcp`](https://www.npmjs.com/package/easymailpro-mcp)
+- **npm package:** [`@easymailpro/mcp`](https://www.npmjs.com/package/@easymailpro/mcp)
 - **Official MCP Registry ID:** `tech.easymailpro/easymailpro`
 - **Dependencies:** 0 (Node.js >= 20 built-in `fetch` and `node:readline`)
 - **Download EasyMail Pro:** [https://easymailpro.tech](https://easymailpro.tech)
@@ -18,7 +18,7 @@ Connect Claude Desktop, Claude Code, OpenAI Codex, OpenCode, Cursor, VS Code, Wi
    - **Read and write (Full access)** — all 28 tools, adding drafts, immediate/scheduled send, archive, trash, star, snooze, mark read/unread, move, folder management, VIPs, Split Inbox categories, templates, and follow-up dismissal.
 4. Copy your personal Bearer access token (`EASYMAIL_MCP_TOKEN`).
 
-> **Direct HTTP vs. `easymailpro-mcp` bridge:** Clients with native Streamable HTTP support (Claude Code, Codex, OpenCode, Cursor) can connect directly to `http://127.0.0.1:41280/mcp` with no bridge needed. Use `npx -y easymailpro-mcp` for `stdio`-based clients like Claude Desktop or MCP registries that launch npm packages over `stdio`.
+> **Direct HTTP vs. `@easymailpro/mcp` bridge:** Clients with native Streamable HTTP support (Claude Code, Codex, OpenCode, Cursor) can connect directly to `http://127.0.0.1:41280/mcp` with no bridge needed. Use `npx -y @easymailpro/mcp` for `stdio`-based clients like Claude Desktop or MCP registries that launch npm packages over `stdio`.
 
 ## Client Setup
 
@@ -29,7 +29,7 @@ Connect Claude Desktop, Claude Code, OpenAI Codex, OpenCode, Cursor, VS Code, Wi
   "mcpServers": {
     "easymailpro": {
       "command": "npx",
-      "args": ["-y", "easymailpro-mcp"],
+      "args": ["-y", "@easymailpro/mcp"],
       "env": {
         "EASYMAIL_MCP_TOKEN": "YOUR_TOKEN_HERE"
       }

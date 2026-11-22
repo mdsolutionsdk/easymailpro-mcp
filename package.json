@@ -1,5 +1,5 @@
 {
-  "name": "easymailpro-mcp",
+  "name": "@easymailpro/mcp",
   "version": "0.1.0",
   "mcpName": "tech.easymailpro/easymailpro",
   "description": "Local stdio-to-HTTP MCP bridge for EasyMail Pro",
@@ -8,7 +8,7 @@
   "homepage": "https://easymailpro.tech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdsolutionsdk/easymailpro-mcp.git"
+    "url": "git+https://github.com/mdsolutionsdk/easymailpro-mcp.git"
   },
   "keywords": [
     "mcp",
@@ -24,7 +24,7 @@
     "node": ">=20"
   },
   "bin": {
-    "easymailpro-mcp": "./bin/easymailpro-mcp.mjs"
+    "easymailpro-mcp": "bin/easymailpro-mcp.mjs"
   },
   "files": [
     "bin/",
@@ -34,5 +34,8 @@
   ],
   "scripts": {
     "test": "node --test test/bridge.test.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
