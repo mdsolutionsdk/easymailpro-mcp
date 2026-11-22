@@ -1,12 +1,13 @@
 # @easymailpro/mcp
 
-Official `stdio`-to-Streamable-HTTP bridge for the built-in local MCP (Model Context Protocol) server in [EasyMail Pro](https://easymailpro.tech).
+Official `stdio`-to-Streamable-HTTP bridge for the built-in local MCP (Model Context Protocol) server in [EasyMail Pro](https://easymailpro.tech/mcp).
 
 Connect Claude Desktop, Claude Code, OpenAI Codex, OpenCode, Cursor, VS Code, Windsurf, Cline, or any MCP-compatible AI agent directly to your local EasyMail Pro mailbox — zero cloud relay, zero third-party OAuth tokens, and all email stays on your machine.
 
 - **npm package:** [`@easymailpro/mcp`](https://www.npmjs.com/package/@easymailpro/mcp)
 - **Official MCP Registry ID:** `tech.easymailpro/easymailpro`
 - **Dependencies:** 0 (Node.js >= 20 built-in `fetch` and `node:readline`)
+- **MCP Guide & Docs:** [https://easymailpro.tech/mcp](https://easymailpro.tech/mcp)
 - **Download EasyMail Pro:** [https://easymailpro.tech](https://easymailpro.tech)
 
 ## Prerequisites

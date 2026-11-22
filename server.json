@@ -4,7 +4,7 @@
   "title": "EasyMail Pro",
   "description": "Local MCP server for EasyMail Pro: search, read, draft, organize, and send email from AI agents.",
   "version": "0.1.0",
-  "websiteUrl": "https://easymailpro.tech",
+  "websiteUrl": "https://easymailpro.tech/mcp",
   "repository": {
     "url": "https://github.com/mdsolutionsdk/easymailpro-mcp",
     "source": "github"

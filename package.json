@@ -5,7 +5,7 @@
   "description": "Local stdio-to-HTTP MCP bridge for EasyMail Pro",
   "license": "MIT",
   "type": "module",
-  "homepage": "https://easymailpro.tech",
+  "homepage": "https://easymailpro.tech/mcp",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdsolutionsdk/easymailpro-mcp.git"
