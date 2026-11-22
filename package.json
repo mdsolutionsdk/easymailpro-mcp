@@ -1,0 +1,38 @@
+{
+  "name": "easymailpro-mcp",
+  "version": "0.1.0",
+  "mcpName": "tech.easymailpro/easymailpro",
+  "description": "Local stdio-to-HTTP MCP bridge for EasyMail Pro",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://easymailpro.tech",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdsolutionsdk/easymailpro-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "easymailpro",
+    "email",
+    "claude",
+    "codex",
+    "opencode",
+    "cursor"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "easymailpro-mcp": "./bin/easymailpro-mcp.mjs"
+  },
+  "files": [
+    "bin/",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/bridge.test.mjs"
+  }
+}
